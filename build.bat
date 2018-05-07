@@ -1,0 +1,2 @@
+@ECHO OFF
+g++ Source/Program.cpp Source/Game.cpp Source/Shader.cpp Source/Texture.cpp Source/ResMngr.cpp Source/SpriteRenderer.cpp Source/GameObjects.cpp -std=c++11 -lglfw3 -lglew32 -lSOIL -lgdi32 -lopengl32
